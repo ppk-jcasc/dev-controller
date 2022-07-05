@@ -1,8 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "ppk-jcasc-dev-controller"
 description: "CloudBees CI configuration bundle for the ppk-jcasc dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/ppk-jcasc/dev-controller"
 parent: "base"
 rbac:
   - "rbac.yaml"
+items:
+  - "folder.yaml"
